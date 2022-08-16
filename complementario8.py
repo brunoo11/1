@@ -1,0 +1,7 @@
+print("Ingrese las velocidades:")
+va = float( input("Velocidad A "))
+vb = float( input("Velocidad B "))
+print("Ingrese la distancia que  separa")
+D = float( input())
+te = D/(va+vb)
+print("el tiempo de encuentro es en", te, "segundos")
